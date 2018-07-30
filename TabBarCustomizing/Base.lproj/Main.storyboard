@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14306.4" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="NSm-kN-Q1T">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14278.2"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Background-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="BackgroundViewController" customModule="TabBarCustomizing" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Regular:31x28px @2x,@3x" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t4E-IZ-tRF">
+                                <rect key="frame" x="10" y="207" width="355" height="30.333333333333343"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="26"/>
+                                <color key="textColor" name="Dark Red-blue"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Gradient Large Template" translatesAutoresizingMaskIntoConstraints="NO" id="lEa-zX-DhL">
+                                <rect key="frame" x="10" y="252.33333333333334" width="355" height="473.66666666666663"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Compact: 23x20@2x,@3x" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aDB-Qx-e2z">
+                                <rect key="frame" x="10" y="156.33333333333334" width="355" height="30.666666666666657"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="26"/>
+                                <color key="textColor" name="Dark Red-blue"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Background" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p3l-jY-wMT">
+                                <rect key="frame" x="10" y="94.333333333333329" width="355" height="41.999999999999986"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="36"/>
+                                <color key="textColor" name="Dark Red-blue"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" name="Yellow"/>
+                        <constraints>
+                            <constraint firstItem="t4E-IZ-tRF" firstAttribute="trailing" secondItem="lEa-zX-DhL" secondAttribute="trailing" id="1tJ-hx-JZn"/>
+                            <constraint firstItem="lEa-zX-DhL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="80y-rU-iwq"/>
+                            <constraint firstItem="t4E-IZ-tRF" firstAttribute="leading" secondItem="lEa-zX-DhL" secondAttribute="leading" id="B4f-E0-VpY"/>
+                            <constraint firstItem="aDB-Qx-e2z" firstAttribute="leading" secondItem="t4E-IZ-tRF" secondAttribute="leading" id="LdW-L6-Ii3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lEa-zX-DhL" secondAttribute="trailing" constant="10" id="MeF-XF-jOl"/>
+                            <constraint firstItem="p3l-jY-wMT" firstAttribute="trailing" secondItem="aDB-Qx-e2z" secondAttribute="trailing" id="MxP-pE-9Ig"/>
+                            <constraint firstItem="t4E-IZ-tRF" firstAttribute="top" secondItem="aDB-Qx-e2z" secondAttribute="bottom" constant="20" id="SxD-XK-083"/>
+                            <constraint firstItem="lEa-zX-DhL" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="7:12" id="TBA-11-vSg"/>
+                            <constraint firstItem="aDB-Qx-e2z" firstAttribute="trailing" secondItem="t4E-IZ-tRF" secondAttribute="trailing" id="YOZ-2f-Ryi"/>
+                            <constraint firstItem="lEa-zX-DhL" firstAttribute="top" secondItem="t4E-IZ-tRF" secondAttribute="bottom" constant="15" id="a09-NH-act"/>
+                            <constraint firstItem="p3l-jY-wMT" firstAttribute="leading" secondItem="aDB-Qx-e2z" secondAttribute="leading" id="dwj-AK-acO"/>
+                            <constraint firstItem="aDB-Qx-e2z" firstAttribute="top" secondItem="p3l-jY-wMT" secondAttribute="bottom" constant="20" id="ngK-Z8-36D"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="lEa-zX-DhL" secondAttribute="bottom" constant="3" id="yN2-2o-fhc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Background" image="Gradient" landscapeImage="Gradient Compact" id="AIH-Vp-ueQ"/>
+                    <connections>
+                        <outlet property="imageView" destination="lEa-zX-DhL" id="22Q-i6-pra"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3586.4000000000001" y="-1224.384236453202"/>
+        </scene>
+        <!--Circle-->
+        <scene sceneID="YKf-Q7-Nfx">
+            <objects>
+                <viewController id="3Wb-Hn-Lfg" customClass="CircleViewController" customModule="TabBarCustomizing" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oR9-im-JCQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Regular: 25pt@2x,@3x" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pSb-Hx-qnM">
+                                <rect key="frame" x="10" y="207" width="355" height="30.333333333333343"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="26"/>
+                                <color key="textColor" name="Dark Red-blue"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Circle Large Template" translatesAutoresizingMaskIntoConstraints="NO" id="KWZ-1P-eH7">
+                                <rect key="frame" x="10" y="252.33333333333334" width="355" height="473.66666666666663"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Compact: 18pt@2x,@3x" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FMo-PG-JXc">
+                                <rect key="frame" x="10" y="156.33333333333334" width="355" height="30.666666666666657"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="26"/>
+                                <color key="textColor" name="Dark Red-blue"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Circle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YnF-RT-H4R">
+                                <rect key="frame" x="10" y="94.333333333333329" width="355" height="41.999999999999986"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="36"/>
+                                <color key="textColor" name="Dark Red-blue"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" name="Green "/>
+                        <constraints>
+                            <constraint firstItem="FMo-PG-JXc" firstAttribute="trailing" secondItem="pSb-Hx-qnM" secondAttribute="trailing" id="35X-1Q-vCk"/>
+                            <constraint firstItem="pSb-Hx-qnM" firstAttribute="trailing" secondItem="KWZ-1P-eH7" secondAttribute="trailing" id="9IY-dg-N88"/>
+                            <constraint firstItem="pSb-Hx-qnM" firstAttribute="top" secondItem="FMo-PG-JXc" secondAttribute="bottom" constant="20" id="BWe-vJ-ZR8"/>
+                            <constraint firstItem="KWZ-1P-eH7" firstAttribute="top" secondItem="pSb-Hx-qnM" secondAttribute="bottom" constant="15" id="FIq-kX-CYd"/>
+                            <constraint firstItem="pSb-Hx-qnM" firstAttribute="leading" secondItem="KWZ-1P-eH7" secondAttribute="leading" id="aYM-M4-C12"/>
+                            <constraint firstItem="FMo-PG-JXc" firstAttribute="top" secondItem="YnF-RT-H4R" secondAttribute="bottom" constant="20" id="egc-lk-1zC"/>
+                            <constraint firstItem="YnF-RT-H4R" firstAttribute="trailing" secondItem="FMo-PG-JXc" secondAttribute="trailing" id="fem-Hh-hPr"/>
+                            <constraint firstItem="KWZ-1P-eH7" firstAttribute="height" secondItem="oR9-im-JCQ" secondAttribute="height" multiplier="7:12" id="iIl-qv-M1G"/>
+                            <constraint firstItem="FMo-PG-JXc" firstAttribute="leading" secondItem="pSb-Hx-qnM" secondAttribute="leading" id="lNR-Ik-WCH"/>
+                            <constraint firstItem="KWZ-1P-eH7" firstAttribute="leading" secondItem="zfw-ck-Wsd" secondAttribute="leading" constant="10" id="q54-qY-hZS"/>
+                            <constraint firstItem="zfw-ck-Wsd" firstAttribute="bottom" secondItem="KWZ-1P-eH7" secondAttribute="bottom" constant="3" id="r6R-fi-n8F"/>
+                            <constraint firstItem="YnF-RT-H4R" firstAttribute="leading" secondItem="FMo-PG-JXc" secondAttribute="leading" id="upi-a4-zoM"/>
+                            <constraint firstItem="zfw-ck-Wsd" firstAttribute="trailing" secondItem="KWZ-1P-eH7" secondAttribute="trailing" constant="10" id="ya6-6L-inm"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="zfw-ck-Wsd"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Circle" image="Circle Template" landscapeImage="Circle Compact Template" selectedImage="Circle" id="2h5-gg-sPm"/>
+                    <connections>
+                        <outlet property="imageView" destination="KWZ-1P-eH7" id="LHo-Kj-zUg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mzv-eb-O9K" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1606" y="-746"/>
+        </scene>
+        <!--Square-->
+        <scene sceneID="Co4-G0-pXQ">
+            <objects>
+                <viewController id="PTi-TV-HsP" customClass="SquareViewController" customModule="TabBarCustomizing" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="23r-wQ-ZrJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Regular:23pt@2x,@3x" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NuK-En-M42">
+                                <rect key="frame" x="10" y="207" width="355" height="30.333333333333343"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="26"/>
+                                <color key="textColor" name="Yellow"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Square Large Template" translatesAutoresizingMaskIntoConstraints="NO" id="GFj-Vp-3iR">
+                                <rect key="frame" x="10" y="252.33333333333334" width="355" height="473.66666666666663"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Compact: 17pt@2x,@3x" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7yO-SM-qyM">
+                                <rect key="frame" x="10" y="156.33333333333334" width="355" height="30.666666666666657"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="26"/>
+                                <color key="textColor" name="Yellow"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Square" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zvq-Dx-v0G">
+                                <rect key="frame" x="10" y="94.333333333333329" width="355" height="41.999999999999986"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="36"/>
+                                <color key="textColor" name="Yellow"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" name="Dark Red-blue"/>
+                        <constraints>
+                            <constraint firstItem="NuK-En-M42" firstAttribute="leading" secondItem="GFj-Vp-3iR" secondAttribute="leading" id="0mK-br-wtJ"/>
+                            <constraint firstItem="GFj-Vp-3iR" firstAttribute="height" secondItem="23r-wQ-ZrJ" secondAttribute="height" multiplier="7:12" id="2de-Os-hoS"/>
+                            <constraint firstItem="GFj-Vp-3iR" firstAttribute="top" secondItem="NuK-En-M42" secondAttribute="bottom" constant="15" id="7Pn-aE-Uzo"/>
+                            <constraint firstItem="NuK-En-M42" firstAttribute="trailing" secondItem="GFj-Vp-3iR" secondAttribute="trailing" id="8HF-iA-FvL"/>
+                            <constraint firstItem="7yO-SM-qyM" firstAttribute="trailing" secondItem="NuK-En-M42" secondAttribute="trailing" id="8XD-kf-0jj"/>
+                            <constraint firstItem="NuK-En-M42" firstAttribute="top" secondItem="7yO-SM-qyM" secondAttribute="bottom" constant="20" id="Jbl-rA-TDM"/>
+                            <constraint firstItem="GFj-Vp-3iR" firstAttribute="leading" secondItem="bWa-Ws-MmU" secondAttribute="leading" constant="10" id="NXJ-uM-fgs"/>
+                            <constraint firstItem="bWa-Ws-MmU" firstAttribute="trailing" secondItem="GFj-Vp-3iR" secondAttribute="trailing" constant="10" id="Nvw-SZ-tBG"/>
+                            <constraint firstItem="Zvq-Dx-v0G" firstAttribute="trailing" secondItem="7yO-SM-qyM" secondAttribute="trailing" id="Yzz-e6-PWy"/>
+                            <constraint firstItem="Zvq-Dx-v0G" firstAttribute="leading" secondItem="7yO-SM-qyM" secondAttribute="leading" id="cv2-Ib-xDO"/>
+                            <constraint firstItem="7yO-SM-qyM" firstAttribute="top" secondItem="Zvq-Dx-v0G" secondAttribute="bottom" constant="20" id="gwc-VF-SUq"/>
+                            <constraint firstItem="bWa-Ws-MmU" firstAttribute="bottom" secondItem="GFj-Vp-3iR" secondAttribute="bottom" constant="3" id="mQs-UI-2dE"/>
+                            <constraint firstItem="7yO-SM-qyM" firstAttribute="leading" secondItem="NuK-En-M42" secondAttribute="leading" id="ymO-My-zvA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="bWa-Ws-MmU"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Square" image="Square Template" landscapeImage="Square Comapct Template" selectedImage="Square" id="bMQ-Za-4ei"/>
+                    <connections>
+                        <outlet property="imageView" destination="GFj-Vp-3iR" id="MtZ-nk-o0y"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vwA-Ff-ea1" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1458" y="-1785"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="la7-yW-EPa">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="NSm-kN-Q1T" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="wGk-Se-1Qb">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="PTi-TV-HsP" kind="relationship" relationship="viewControllers" id="Cq8-0g-LnF"/>
+                        <segue destination="3Wb-Hn-Lfg" kind="relationship" relationship="viewControllers" id="csq-6I-dIn"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="l7O-Jv-wUU"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cmn-JA-fWA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="581.60000000000002" y="-1224.384236453202"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Circle" width="25" height="26"/>
+        <image name="Circle Compact Template" width="19" height="19"/>
+        <image name="Circle Large Template" width="300" height="312"/>
+        <image name="Circle Template" width="25" height="26"/>
+        <image name="Gradient" width="31" height="28"/>
+        <image name="Gradient Compact" width="23" height="20"/>
+        <image name="Gradient Large Template" width="300" height="280"/>
+        <image name="Square" width="23" height="24"/>
+        <image name="Square Comapct Template" width="17" height="18"/>
+        <image name="Square Large Template" width="300" height="313"/>
+        <image name="Square Template" width="23" height="24"/>
+        <namedColor name="Dark Red-blue">
+            <color red="0.50800001621246338" green="0.0" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Green ">
+            <color red="0.0" green="1" blue="0.49803921568627452" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Yellow">
+            <color red="1" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
